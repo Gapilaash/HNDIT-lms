@@ -1,0 +1,13 @@
+# Sensitive config with real DB credentials - never commit this
+config.php
+
+# Uploaded files by students/admin
+uploads/*
+!uploads/.gitkeep
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
